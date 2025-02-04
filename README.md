@@ -8,7 +8,7 @@ Python
 Docker
 
 ## 🌟 **Présentation du Projet**
-Bienvenue dans notre projet d'API bancaire avancée utilisant une base de données NoSQL (MongoDB Atlas). Ce projet a été développé dans le cadre d'un TP noté et a pour objectif de démontrer la conception d'une architecture backend robuste, sécurisée et évolutive.
+Bienvenue dans notre projet d'API bancaire avancée utilisant une base de données NoSQL (MongoDB Atlas). Ce projet a été développé dans le cadre d'un TP et a pour objectif de démontrer la conception d'une architecture backend robuste, sécurisée et évolutive.
 
 ### **Fonctionnalités principales :**
 - **Opérations CRUD** : Gestion des utilisateurs, comptes bancaires et transactions.
@@ -22,7 +22,7 @@ Bienvenue dans notre projet d'API bancaire avancée utilisant une base de donné
 
 | Technologie       | Description                                                                 |
 |-------------------|-----------------------------------------------------------------------------|
-| **Python 3.9+**   | Langage principal utilisé pour développer l'API.                           |
+| **Python**   | Langage principal utilisé pour développer l'API.                           |
 | **Flask**         | Framework web léger pour créer l'API RESTful.                              |
 | **MongoDB Atlas** | Base de données NoSQL hébergée dans le cloud pour stocker les données.     |
 | **Redis**         | Cache utilisé pour la gestion des sessions.                                |
