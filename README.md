@@ -1,2 +1,1 @@
-# bank-api
-NoSQL Project
+Readme
