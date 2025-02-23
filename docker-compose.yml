@@ -1,0 +1,24 @@
+services:
+  flask-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5050:5000"
+    environment:
+      - FLASK_APP=app:create_app
+      - FLASK_ENV=development 
+    volumes:
+      - .:/app
+    env_file:
+      - env
+  react-app:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/frontend
+    environment:
+      - CHOKIDAR_USEPOLLING=true
