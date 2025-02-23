@@ -10,6 +10,8 @@ services:
       - FLASK_ENV=development 
     volumes:
       - .:/app
+    env_file:
+      - env
   react-app:
     build:
       context: ./frontend
